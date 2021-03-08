@@ -1,7 +1,10 @@
+import TemperatureInput from "./components/TemperatureInput/temperatureinput";
+
 function App() {
   return (
     <div>
-      <h1>New Weather Converter App</h1>
+      <TemperatureInput scale="c" />
+      <TemperatureInput scale="f" />
     </div>
   );
 }
